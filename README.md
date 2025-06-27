@@ -19,16 +19,13 @@ Files:
 Lines
 1   -   typ: Integer, 	kind of use: <1, the same as 1, but after calculations, reads file with air temperature, radiation on horizontal plane (meteodat.dat), angle of sun, transmittance (assuming there could be some partial shadow by trees, for instance), and absorbance of solar radiation by the subject/cylinder, one value in each line (5 lines). Please use real data, results depend strongly on the entered values.  
                         kind of use: =1, read 4pi thermographic picture as 2 files: 
-Imagez.bmp, Zenit file; and                         
-Imagen.bmp, nadir file (spherical projections). Should be the same size or very nearly
+                        Imagez.bmp, Zenit file; and                         
+                        Imagen.bmp, nadir file (spherical projections). Should be the same size or very nearly (see below)
+
 2-3  Tmin, Tmax (2 float, 2 lines) giving the minimum and maximum temperatures in the pictures (both the same). Actually, computes T of a pixel from T= Tmin + (Tmax-Tmin)*(b+g+r)/3/255    
 (Consider using enlarged Tmax-Tmin because data could be incorrect near the extreme values)
 (Add some extra lines at the end to assure correct closing of file)
-
-                        Kind of use >=3, will read (x,y) coordinates (integer) of (typ) number of points (max 50) (each coordinate, i.e., x, in a separate line)  To obtain, from a.bmp, a file a.dat  giving the bgr (r,g,b) values in the picture (to calibrate function relating  r,g,b to temperatures
-
 Kind of use >=3, will read (x,y) coordinates (integer) of (typ) number of points (max 50) (each coordinate, i.e., x, in a separate line)  To obtain, from a.bmp, a file a.dat  giving the bgr (r,g,b) values in the picture (to calibrate function relating  r,g,b to temperatures
-
 
 -input file: Imagez.bmp Bitmap file where to read the hemispheric thermograph corresponding to the Zenit. Might be a large file, the program only uses the bmp convention to address finding height and width, and the starting of the data. 3 unsigned char (bytes, number from 0 to 255), b, g and r for each pixel. The values of r,g,b, are converted to temperature in the program (could be modified according to your needs, Modify to your convenience and responsibility). Checked with “Iron” scale converted to grey scale (rgb) with Photoshop or Paint, from Testo and Flir pictures (only IR pictures).
 The spherical-projected image should be centred and diameter of the projected image= width= height of the bitmap image
@@ -51,5 +48,5 @@ Transmit (transmittance of any obstacles to sunlight, as tree canopies, in per o
 Absorbance (absorbance of the cylinder to model the standing human body, in per one)
 In this case, another file will be produced as result:
 
-Output file: TradSola.dat, ascii file, giving the equivalent radiant temperatures in the case without solar contribution, and with direct solar contribution, both for a receiving sphere and a receiving cylinder (human standing body model)
+Output file: -TradSola.dat, ascii file, giving the equivalent radiant temperatures in the case without solar contribution, and with direct solar contribution, both for a receiving sphere and a receiving cylinder (human standing body model)
 
