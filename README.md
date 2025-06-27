@@ -27,6 +27,9 @@ Imagen.bmp, nadir file (spherical projections). Should be the same size or very 
 
                         Kind of use >=3, will read (x,y) coordinates (integer) of (typ) number of points (max 50) (each coordinate, i.e., x, in a separate line)  To obtain, from a.bmp, a file a.dat  giving the bgr (r,g,b) values in the picture (to calibrate function relating  r,g,b to temperatures
 
+Kind of use >=3, will read (x,y) coordinates (integer) of (typ) number of points (max 50) (each coordinate, i.e., x, in a separate line)  To obtain, from a.bmp, a file a.dat  giving the bgr (r,g,b) values in the picture (to calibrate function relating  r,g,b to temperatures
+
+
 -input file: Imagez.bmp Bitmap file where to read the hemispheric thermograph corresponding to the Zenit. Might be a large file, the program only uses the bmp convention to address finding height and width, and the starting of the data. 3 unsigned char (bytes, number from 0 to 255), b, g and r for each pixel. The values of r,g,b, are converted to temperature in the program (could be modified according to your needs, Modify to your convenience and responsibility). Checked with “Iron” scale converted to grey scale (rgb) with Photoshop or Paint, from Testo and Flir pictures (only IR pictures).
 The spherical-projected image should be centred and diameter of the projected image= width= height of the bitmap image
 
