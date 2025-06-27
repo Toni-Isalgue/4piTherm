@@ -25,6 +25,7 @@ Lines
 2-3  Tmin, Tmax (2 float, 2 lines) giving the minimum and maximum temperatures in the pictures (both the same). Actually, computes T of a pixel from T= Tmin + (Tmax-Tmin)*(b+g+r)/3/255    
 (Consider using enlarged Tmax-Tmin because data could be incorrect near the extreme values)
 (Add some extra lines at the end to assure correct closing of file)
+
 Kind of use >=3, will read (x,y) coordinates (integer) of (typ) number of points (max 50) (each coordinate, i.e., x, in a separate line)  To obtain, from a.bmp, a file a.dat  giving the bgr (r,g,b) values in the picture (to calibrate function relating  r,g,b to temperatures
 
 -input file: Imagez.bmp Bitmap file where to read the hemispheric thermograph corresponding to the Zenit. Might be a large file, the program only uses the bmp convention to address finding height and width, and the starting of the data. 3 unsigned char (bytes, number from 0 to 255), b, g and r for each pixel. The values of r,g,b, are converted to temperature in the program (could be modified according to your needs, Modify to your convenience and responsibility). Checked with “Iron” scale converted to grey scale (rgb) with Photoshop or Paint, from Testo and Flir pictures (only IR pictures).
