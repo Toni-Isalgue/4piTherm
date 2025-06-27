@@ -51,3 +51,4 @@ In this case, another file will be produced as result:
 
 Output file: -TradSola.dat, ascii file, giving the equivalent radiant temperatures in the case without solar contribution, and with direct solar contribution, both for a receiving sphere and a receiving cylinder (human standing body model)
 
+Note: .exe provided for Windows
