@@ -1,0 +1,81 @@
+ 
+Zenit:  
+ 
+typ, Tmin, Tmax: -1 -50.000000 50.000000 
+Zenit height, width: 6275 6276 
+r2, r: 9840769.000000 3137.000000 
+ 
+Zenit:  
+ 
+Selected points, from total:  30915609 39381900 
+ 
+Spheric average, stdesv (ºC)  1.394755 20.054531 
+ 
+ 
+Tav (horiz. average cos, T2av,  stdesv (ºC):  -3.173964 20.426157 
+ 
+ 
+Tavs (vert. average sin, T2avs, stdesv (ºC):  6.832865 11.497980 
+ 
+ 
+ 
+Radiation average   (T(K))^4) ) 
+ 
+T2gav, (Spherical   average   T^4 (K)): 276.563482 
+ 
+T2avk, (horiz. average  cos   T^4 (K)): 272.454407 
+ 
+T2avsk (vert.  average  sin   T^4 (K)): 281.136763 
+ 
+ 
+Cocont= Suma cos; Sicont= Suma sin 
+cocont,sicont: 20610457.825482 20610379.803760 
+ 
+ 
+ 
+Nadir:  
+ 
+typ, Tmin, Tmax: -1 -50.000000 50.000000 
+Nadir height, width: 6275 6276 
+r2, r: 9840769.000000 3137.000000 
+ 
+Nadir:  
+ 
+Selected points of TOTAL picture:  30915609 39381900 
+ 
+T2g  Spherical average T2(ºC),  stdesv:  13.216738  1.220372 
+ 
+ 
+T2av  (hor.  average cos), stdesv (ºC):  13.121106 6.606219 
+ 
+ 
+T2avs (vert. average sin), stdesv (ºC):  13.297544 6.410063 
+ 
+ 
+ 
+Radiation average (T(K))^4)) 
+ 
+T2gav  (spherical average  T^4    (K)): 286.373973 
+ 
+T2avk  (hor. average  cos  T^4    (K)): 286.274186 
+ 
+T2avsk (vert. average sin  T^4    (K)): 286.456998 
+ 
+ 
+Cocont= Sum cos; Sicont= Sum sin 
+cocont,sicont: 20610457.825482 20610379.803760 
+ 
+ 
+ 
+ 
+TOTAL SPHERIC:  Selected points, from TOTAL: 61831218 78763800 
+ 
+Spheric average   T2g,   stdev (ºC):  7.305747 15.387547 
+ 
+ 
+T2av,  (hor. average,  cos ºC), stdev : 4.973571 15.911480 
+ 
+ 
+T2avs, (vert. average, sin ºC), stdesv : 10.065205 7.483671 
+ 
+ 

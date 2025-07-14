@@ -1,0 +1,29 @@
+Results of Radiant temperatures 
+ 
+Meteo and other data: Tair, vair, RadS, angle, transmit, absorb 19.000000 0.000000 600.000000 26.000000 0.500000 0.700000 
+ 
+No direct Sun, from IR pictures Imagez and Imagen: 
+ 
+Equivalent Radiant temperature for a sphere: 281.596874 (K)    8.446874 (ºC) 
+ 
+Approximate value for measured black globe temperature in K and in ºC: 286.663309 13.513309 
+ 
+Equivalent Radiant temperature for a cylinder 0.88m2 lateral, 0.06 m2 up: 283.338455 (K)   10.188455 (ºC) 
+ 
+Approximate value for measured cylinder (absorb) temperature in K and in ºC: 288.287091 15.137091 
+ 
+ 
+With direct Sun added: 
+ 
+Horizontal sun radiation 600.000000 (W/m2)   angle resp. horiz.  26.000000 (º) 
+  
+Equivalent Radiant temperature for a sphere under Sunlight: 299.847177 (K)    26.697177 (ºC) 
+ 
+Approximate value for measured black globe temperature in K and in ºC: 296.331864 23.181864 
+ 
+Equivalent Radiant temperature for a cylinder 0.88m2 lateral, 0.06 m2 up under Sunlight: 303.118490 (K)   29.968490 (ºC) 
+ 
+Approximate value for measured cylinder (absorb) temperature in K and in ºC: 297.233755 24.083755 
+ 
+ 
+ sinaa, cosaa: 0.438371 0.898794 
